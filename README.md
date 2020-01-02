@@ -11,7 +11,7 @@ This modifies and extends the functionality of the forked file in two ways:
 
 Scheduling posts for a Facebook page can be a very tedious task which requires clicking into many different pages and menus and manually entering information for each post. A user then has to wait for the page to reload to schedule another post. With large post volume, this task can take hours. 
 
-A few paid applications exist that allow a user to bulk schedule posts in advance directly from spreadsheet data. These can range from $15 to $30 for the lowest tiers of service, which may also limit the number of posts. However, this script allows one to schedule virtually unlimited posts to any facebook page of which they are an owner, which makes it a pretty valuable tool.
+A few paid applications exist that allow a user to bulk schedule posts in advance directly from spreadsheet data. These can range from $15 to $30 per month for the lowest tiers of service, which may also limit the number of posts. However, this script allows one to schedule virtually unlimited posts to any facebook page of which they are an owner, which makes it a pretty valuable tool.
 
 ### Set Up Notes
 
