@@ -1,4 +1,4 @@
-# **Selenium Scripts To Bulk Schedule in Facebook page ** 
+# **Selenium based Python script To bulk schedule in Facebook page ** 
 Selenium script that bulks schedules posts to one's FB page from a csv import.
 
 New repository after initial fork from https://github.com/ColombiaPython/social-media-automation
@@ -32,7 +32,7 @@ $ (venv) pip install selenium
 ```
 * Download [geckodriver](https://github.com/mozilla/geckodriver/releases) and put path in line 49.
 
-#User Customization Steps
+# User Customization Steps
 
 1) Modify path to trafficking spreadsheet where post information is stored (line 27). Spreadsheet should include four fields: schedule_date, message, image_path, image_type
 2) Hardcode path to the scheduled posts page of your facebook page, of which you must be an owner. (Line 24)
@@ -46,16 +46,16 @@ $ (venv) python FBautopost.py -u 'login email' -p 'password'
 ```
 
 
-###to do: 
-#validate csv file fields and encode format
-#emojis
-#add and process time of day field
-#if/else logic for missing values in file columnns 
-#video posts
-#multi image posts/carousel
-#allow notifications firefox popup avoidance
-#page_link as input variable
-#pics location folder as input variable
-#traffic sheet file as input variable
-#error messages
-#relocate geckodriver
+### to do: 
+# validate csv file fields and encode format
+# emojis
+# add and process time of day field
+# if/else logic for missing values in file columnns 
+# video posts
+# multi image posts/carousel
+# allow notifications firefox popup avoidance
+# page_link as input variable
+# pics location folder as input variable
+# traffic sheet file as input variable
+# error messages
+# relocate geckodriver
