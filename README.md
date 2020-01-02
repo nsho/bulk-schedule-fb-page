@@ -34,19 +34,16 @@ $ (venv) pip install selenium
 
 #User Customization Steps
 
-User and password should be entered with arguments in command line. Alternatively these can be hardcoded directly into the script.
+1) Modify path to trafficking spreadsheet where post information is stored (line 27). Spreadsheet should include four fields: schedule_date, message, image_path, image_type
+2) Hardcode path to the scheduled posts page of your facebook page, of which you must be an owner. (Line 24)
+3) User and password should be entered with arguments in command line. Alternatively these can be hardcoded directly into the script.
 
-Modify path to trafficking spreadsheet where post information is stored. Spreadsheet should include four fields: schedule_date, message, image_path, image_type
 
-Hardcode path to the scheduled posts page of your facebook page, of which you must be an owner.
-
-Add folder path where images referenced in spreadsheet image are stored. (Line  and the link of facebook groups
 
 * Run the script  
 ```
-$ (venv) python fbposter.py
+$ (venv) python FBautopost.py -u 'login email' -p 'password'
 ```
-
 
 
 ###to do: 
