@@ -47,15 +47,16 @@ $ (venv) python FBautopost.py -u 'login email' -p 'password'
 
 
 ### to do: 
-# validate csv file fields and encode format
-# emojis
-# add and process time of day field
-# if/else logic for missing values in file columnns 
-# video posts
-# multi image posts/carousel
-# allow notifications firefox popup avoidance
-# page_link as input variable
-# pics location folder as input variable
-# traffic sheet file as input variable
-# error messages
-# relocate geckodriver
+validate csv file fields and encode format
+emojis
+add and process time of day field
+if/else logic for missing values in file columnns 
+video posts
+multi image posts/carousel
+allow notifications firefox popup avoidance
+page_link as input variable
+pics location folder as input variable
+traffic sheet file as input variable
+error messages
+relocate geckodriver
+chrome extension
