@@ -3,9 +3,14 @@ Selenium script that bulks schedules posts to one's FB page from a csv import.
 
 New repository after initial fork from https://github.com/ColombiaPython/social-media-automation
 
+This modifies and extends the functionality of the forked file in two ways:
+
+1) Posting to a 'page' instead of 'group.' 
+2) Enabling the scheduling of multiple posts. (Note: FB still limits scheduling to six months in the future.)
+
 Currently only text and single image posts are supported. (links can be substituted for text without issue.)
 
-### Facebook Bulk Scheduling
+### Facebook Bulk Scheduling Set Up
 
 * Verify you have Python 3.6.x installed
 * Install [pip](https://bootstrap.pypa.io/get-pip.py)
