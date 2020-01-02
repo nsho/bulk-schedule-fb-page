@@ -59,17 +59,17 @@ $ (venv) python FBautopost.py -u 'login email' -p 'password'
 
 
 ### to do: 
-validate csv file fields and encode format
-emojis
-add and process time of day field
-if/else logic for missing values in file columnns 
-video posts
-multi image posts/carousel
-allow notifications firefox popup avoidance
-page_link as input variable
-pics location folder as input variable
-traffic sheet file as input variable
-error messages
-relocate geckodriver
-chrome extension
+Validate csv file fields and encode format.
+Emojis.
+Add and process time of day field.
+If/else logic for missing values in file columnns. 
+Video posts.
+Multi image posts/carousel.
+Allow notifications firefox popup avoidance.
+page_link as input variable.
+Pics location folder as input variable.
+Traffic sheet file as input variable.
+Error messages.
+Easy locate geckodriver.
+Chrome extension.
 Currently the script clicks 'Share Now' button for scheduled posts, which loads the scheduler and doesn't actually share the post. If one instead clicks the initial schedule button, it doesn't save and when one clicks schedule FB loads the schedule post menu a second time. I think this is a bug on the Facebook side and will require monitoring to ensure this script doesn't break if facebook makes an update. Noted in the script on line 89-91 as well.
